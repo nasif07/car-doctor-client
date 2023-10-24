@@ -1,5 +1,6 @@
 import About from "../About/About.jsx";
 import Banner from "../Banner/Banner.jsx"
+import Services from "../Services/Services.jsx";
 
 
 const Home = () => {
@@ -7,6 +8,7 @@ const Home = () => {
         <div>
            <Banner></Banner>
            <About></About>
+           <Services></Services>
         </div>
     );
 };
